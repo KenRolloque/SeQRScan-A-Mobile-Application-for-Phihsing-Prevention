@@ -1,0 +1,1 @@
+# SeQRScan-A-Mobile-Application-for-Phihsing-Prevention
