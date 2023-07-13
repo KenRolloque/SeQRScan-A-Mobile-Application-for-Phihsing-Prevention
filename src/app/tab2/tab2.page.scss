@@ -9,10 +9,9 @@
     --light: rgb(139, 139, 139);
 }
 
-ion-col{
+ion-col > h2 {
+    font: normal 18px Poppins;
 }
-// ion-col{
-// }
 ion-grid{
     background-color: white;
 }

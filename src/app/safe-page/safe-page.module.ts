@@ -6,6 +6,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { SafePagePageRoutingModule } from './safe-page-routing.module';
 import { QRCodeModule } from 'angularx-qrcode';
+
 import { SafePagePage } from './safe-page.page';
 
 @NgModule({

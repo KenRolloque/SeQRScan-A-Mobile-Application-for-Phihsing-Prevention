@@ -1,18 +1,18 @@
-import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Tab4Page } from './tab4.page';
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+
+import { IonicModule } from '@ionic/angular';
 
 import { Tab4PageRoutingModule } from './tab4-routing.module';
 
+import { Tab4Page } from './tab4.page';
+
 @NgModule({
   imports: [
-    IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
+    IonicModule,
     Tab4PageRoutingModule
   ],
   declarations: [Tab4Page]

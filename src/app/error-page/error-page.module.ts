@@ -14,8 +14,8 @@ import { ErrorPagePage } from './error-page.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ErrorPagePageRoutingModule,
-    QRCodeModule
+    QRCodeModule,
+    ErrorPagePageRoutingModule
   ],
   declarations: [ErrorPagePage]
 })

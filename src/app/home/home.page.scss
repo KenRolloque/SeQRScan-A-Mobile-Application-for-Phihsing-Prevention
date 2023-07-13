@@ -1,0 +1,28 @@
+#main-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+
+#logo-container{
+  display: flex;
+  align-items: center;
+  // border: 1px solid red;
+}
+
+#qr-icon{
+  font-size: 100px;
+  // border: 1px solid red;
+  padding: 5px;
+  color: #004594;
+}
+
+h2{
+  font: bold 30px Verdana;
+  color:#008A63 ;
+
+}

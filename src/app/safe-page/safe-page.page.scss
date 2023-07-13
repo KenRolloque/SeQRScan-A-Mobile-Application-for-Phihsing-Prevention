@@ -36,7 +36,8 @@ ion-grid, ion-col, ion-row{
 }
 #result > ion-col > h5{
     text-align: center;
-
+    font: bold 16px Poppins;
+   
 }
 #status-i{
     color: white;
@@ -59,8 +60,20 @@ ion-grid, ion-col, ion-row{
     margin-top: 1em;
 }
 
-#content-cont > p:first-child{
-    font: bold 16px Verdana;    
+#content-cont > p:first-child, #status-cont > p:first-child{
+    font: bold 14px Poppins;    
+    // color: #3D0000;
+}
+
+#content-cont > p:last-child{
+    font: normal 14px Poppins; 
+    color: #00BF63;   
+    // color: #116D6E;
+}
+
+#status-cont > p:last-child{
+    font: normal 14px Poppins;    
+    color: #00BF63;
 }
 #button-cont{
     margin-top: 1em;
@@ -74,11 +87,13 @@ ion-grid, ion-col, ion-row{
 
 #button-cont > ion-button:first-child{
     --background: #00BF63;
+    font: normal 14px Poppins; 
 }
 
 #button-cont > ion-button:last-child{
     --background: none;
     color: black;
     --box-shadow:0 0 0 0;
+    font: normal 14px Poppins; 
     
 }

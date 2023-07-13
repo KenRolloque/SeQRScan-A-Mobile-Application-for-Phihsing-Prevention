@@ -1,21 +1,19 @@
-import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Tab1Page } from './tab1.page';
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
-import { QRCodeModule } from 'angularx-qrcode';
+import { IonicModule } from '@ionic/angular';
 import { Tab1PageRoutingModule } from './tab1-routing.module';
+import { Tab1Page } from './tab1.page';
+import { QRCodeModule } from 'angularx-qrcode';
+
 
 @NgModule({
   imports: [
-    IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
-    Tab1PageRoutingModule,  
-    QRCodeModule,
-    
+    IonicModule,
+    Tab1PageRoutingModule,
+    QRCodeModule
   ],
   declarations: [Tab1Page]
 })

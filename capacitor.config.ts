@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'sample',
+  appName: 'qrshield',
   webDir: 'www',
   server: {
     androidScheme: 'https'

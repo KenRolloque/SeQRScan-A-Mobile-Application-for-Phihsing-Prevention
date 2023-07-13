@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 import { AlertController } from '@ionic/angular';
-
 @Component({
   selector: 'app-error-page',
   templateUrl: './error-page.page.html',
@@ -31,13 +30,11 @@ export class ErrorPagePage implements OnInit {
 
     await alert.present();
   }
-  ngOnInit() {
 
-  
-  }
   goToHome(){
-    this.navCtrl.navigateForward('/tabs/tab1');
+    this.navCtrl.navigateForward('/main/scan');
   }
-
+  ngOnInit() {
+  }
 
 }

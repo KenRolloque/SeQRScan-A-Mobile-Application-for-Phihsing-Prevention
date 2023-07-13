@@ -14,8 +14,7 @@ export class SafePagePage implements OnInit {
   }
 
   goToHome(){
-    this.navCtrl.navigateForward('/tabs/tab1');
+    this.navCtrl.navigateForward('/main/scan');
   }
-
 
 }
